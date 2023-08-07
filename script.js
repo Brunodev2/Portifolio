@@ -1,5 +1,5 @@
 const el = window.document.querySelector('#text')
-const text = 'Olá me chamo Bruno sou desevolvedor, você está no meu portifolio, seja bem Vindo.'
+const text = 'Olá me chamo Bruno Castro sou desevolvedor, você está no meu Portifólio, seja bem Vindo.'
 const interval = 200;
 
 
@@ -19,6 +19,12 @@ const typer = setInterval(()=>{
     const next = char.pop();
 
     el.innerHTML += next;
+   
+
+    if(next== 87){
+        el.style.display = 'none'
+    }
+    
 
 },interval);
 

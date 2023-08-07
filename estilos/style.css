@@ -8,7 +8,7 @@ list-style: none;
 padding: none;
 font-size: 1em;
 font-weight: normal;
-background-color: #FFFFFF;
+
 font-family:Arial, Helvetica, sans-serif;
 
 
@@ -17,7 +17,6 @@ font-family:Arial, Helvetica, sans-serif;
  
   @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&family=REM:wght@200&family=Roboto&display=swap');
 
-  
 
 
 .logo1{
@@ -103,13 +102,19 @@ section {
        
     }
     
+    .perfil{
+        display: block;
+    }
 }
 
 @media (max-width:390px){
     .conteiner_background{
         background-image: url(../imagens/back375.jpg);
 
-       
+    height: 100vh;
+    }
+    .perfil{
+        display: block;
     }
     .nav_bar{
         display: none;
@@ -128,8 +133,46 @@ section {
     .text{
         font-size: 1.5em;
     }
-}
+  
+  }
 
+
+
+  .img_perfil{
+width: 300px;
+height:300px;
+border-radius: 150px;
+margin-top: 150px;
+border: 10px solid rgba(160, 153, 153, 0.219);
+
+
+
+  }
+  .perfil
+  {
+    display: flex;
+    width:700px;
+    margin: auto;
+   
+    
+  }
+  .bio{
+    
+   display: block;
+   margin: auto;
+  }
+  .bio p{
+  
+    text-align:left;
+    margin: 20px;
+    font-weight:500;
+   font-size: 1.2em;
+   color: rgb(16, 15, 15);
+   background-color: rgba(238, 235, 235, 0.478);
+   padding: 10px;
+   border-radius: 5px;
+   
+  }
 
 .icone{
   position: relative;
