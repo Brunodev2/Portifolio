@@ -13,7 +13,7 @@
         <header>
             <a class="logo1" href="index.html"><img class="logo" src="imagens/logo1-removebg-preview.png" alt="logo"></a>
             
-            <nav>
+            <nav class="nav_bar">
             <a class="nave" href="sobre.html"> Sobre mim</a>
             <a class="nave" href="projeto.html">Projetos</a>
             <a class="nave" href="contato.html"> Contato</a>
@@ -21,6 +21,21 @@
           </nav>
         </header>
         <main> 
+          <p>Para contato Profissional</p>
+          <div class="conteiner_contato">
+               <form action="https://formsubmit.co/your@email.com" method="POST">
+                <label for="name">Nome</label>
+                  <input type="text" name="name" required>
+                  <label for="email">Email</label>
+                  <input class="email" type="email" name="email" required>
+                  <label for="mensagem">Mensagem</label>
+                  
+                  <textarea name="mensagem" id="" cols="50" rows="5"></textarea required>
+                   <button type="submit">Enviar</button>
+              </form>
+
+            
+          </div>
 
          
         </main>
